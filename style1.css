@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #181818;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    padding: 24px 0 16px 0;
+    background: #232323;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 8px #0003;
+}
+
+.search-bar {
+    width: 320px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    background: #333;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.no-items {
+    font-size: 1.5rem;
+    color: #e53935;
+    text-align: center;
+}
